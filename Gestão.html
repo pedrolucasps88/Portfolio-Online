@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/parallax.css" rel="stylesheet">
+    <title>Gestao-de-Protocolos</title>
+	<style>
+body {
+	background-image: linear-gradient(to right, #3d233e, #482441, #532543, #5e2644, #692743);
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 28px;
+}
+h1 {
+  letter-spacing: -15px;
+  font-family: Open Sans;
+  color: #0458b8;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 800;
+  line-height: 200px;
+}
+h2 {
+  color: #0458b8;
+  text-align: center;
+  font-size: 30px;
+}
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+}
+.ContentContainer {
+  position: relative;
+  display: block;
+  background-image: linear-gradient(to right, #3d233e, #482441, #532543, #5e2644, #692743);
+  z-index: 1;
+}
+.Content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+p {
+  margin: 75px 0;
+  color:white;
+}
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  background: url(img/trabalhos/Gestão.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-color: #fae4d8;
+}
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="navigation" class="navigation menujs" style="background-color: transparent;">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="curriculo.html">Currículo</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+		</ul>
+	</div>
+
+
+    <div class="MainContainer">
+
+        <div class="ParallaxContainer">
+        </div>
+      
+        <div class="ContentContainer">
+			<ul class="caminho">
+				<li><a href="index.html">Home</a></li>
+				<li>></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li>></li>
+				<li>Gestão de Protocolos</li>
+			</ul>
+          <div class="Content">
+			<h2>Gestão de Protocolos</h2>
+      <br>
+      <br>
+      <h2>Breve Descrição</h2>
+            <p>É um sistema que faz com que os protocolos sejam enviados todos por meio de um servidor, ao invés de ter que ficar entregando de mão em mão pessoalmente, onde o destinatário poderá assinar tudo online sem precisar imprimir ou usar qualquer tipo de papel.
+            </p>
+			<h2>Pitch</h2>
+      <video width="320" height="240" controls>
+        <source src="img/trabalhos/Gestão de Protocolos Pitch.mp4" type="video/mp4">
+      </video>
+
+			<h2>link do projeto</h2>
+			<a style="text-align: center;text-decoration: none;color: cornflowerblue;" href="https://github.com/pedrolucasps88/Gestao-de-Protocolos">Projeto Gestao-de-Protocolos</a>
+            </div>
+
+			<a class="back-link" href="portfolio.html">&lArr;Voltar ao Portfolio<a>
+        </div>
+
+      </div>
+	  
+</body>
+</html>
